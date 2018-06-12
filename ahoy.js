@@ -544,13 +544,6 @@
     ahoy.start = function () {};
   };
 
-  documentReady(function() {
-    if (config.startOnReady) {
-      console.log("Ahoy start");
-      ahoy.start();
-    }
-  });
-
   return ahoy;
 
 })));
